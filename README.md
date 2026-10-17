@@ -25,5 +25,15 @@ Install: `pip install pandas numpy scikit-learn matplotlib openpyxl`
   so the model rediscovers them. A real dataset would be noisier.
 - Not a production pricing system.
 
+  
+
 ## Dashboard
 Open `fares_clean.csv` in Power BI Desktop and build the dashboard (add a screenshot here).
+
+## Databricks
+`05_databricks_notebook.py` was run in Databricks Free Edition: loaded the cleaned fares,
+aggregated by route and cabin with PySpark, saved a table, and ranked routes by revenue with SQL.
+See databricks_notebook.png.
+
+## Dashboard
+dashboard.png (built with Python/matplotlib via 06_dashboard.py).
